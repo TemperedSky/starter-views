@@ -17,7 +17,7 @@ class Application extends CI_Controller {
         parent::__construct();
         //  Set basic view parameters
         $this->data = array();
-        $this->data['pagetitle'] = 'CodeIgniter3.1 Starter 2';
+        $this->data['pagetitle'] = 'Meme Emporium';
         $this->data['ci_version'] = (ENVIRONMENT === 'development') ? 'CodeIgniter Version <strong>' . CI_VERSION . '</strong>' : '';
     }
     /**
