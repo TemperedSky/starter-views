@@ -17,7 +17,10 @@ class Welcome extends Application
 	public function index()
 	{
 		$this->data['pagebody'] = 'welcome_message';
-        $this->data['navbar'] = $this->parser->parse('navbar', $this->data, true);
-		$this->render(); 
+        $foreach ($this->categories->all() as $category) {
+            $result = $this->parser->parse('category-home',$category, true);
+        }
+    $this->data['content'] = $result;
+    $this->render();
 	}
 }
