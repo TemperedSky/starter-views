@@ -135,3 +135,6 @@ $autoload['language'] = array();
 $autoload['model'] = array('images');
 
 $autoload['libraries'] = array('database', 'parser');
+
+$autoload['menu'] = array('menu');
+$autoload['categories'] = array('categories');
