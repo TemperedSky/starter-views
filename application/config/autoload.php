@@ -134,6 +134,6 @@ $autoload['language'] = array();
 */
 $autoload['model'] = array('images');
 
-$autoload['libraries'] = array('database', 'parser');
+$autoload['libraries'] = array('database', 'parser', 'parsedown');
 
 $autoload['model'] = array('categories', 'menu');
